@@ -11,14 +11,7 @@ Excel を読み込み、各項目が基準を満たしているかをチェッ�
 - **幅員チェック（Width）**
 - **曲線半径チェック（Curve）**
 - **土量チェック（Volume）**
-- Excel の自動読み込み（utils/excel_loader.py）
-- 判定ロジックのモジュール化（checker/）
-- 結果を Excel に自動出力
-
----
-
-## 📂 Project Structure（構成）
-Excel入力（sample_data.xlsx）
+- Excel入力（sample_data.xlsx）
           │
           ▼
   ┌────────────────────┐
@@ -36,4 +29,12 @@ Excel入力（sample_data.xlsx）
           │
           ▼
 result.xlsx に出力
+
+- Excel の自動読み込み（utils/excel_loader.py）
+- 判定ロジックのモジュール化（checker/）
+- 結果を Excel に自動出力
+
+---
+
+## 📂 Project Structure（構成）
 
